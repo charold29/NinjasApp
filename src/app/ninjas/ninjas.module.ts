@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MaterialModule } from '../material/material.module';
 
 import { NinjasRoutingModule } from './ninjas-routing.module';
 
@@ -23,7 +24,8 @@ import { ListComponent } from './pages/list/list.component';
   imports: [
     CommonModule,
     FlexLayoutModule,
-    NinjasRoutingModule
+    MaterialModule,
+    NinjasRoutingModule,
   ]
 })
 export class NinjasModule { }
