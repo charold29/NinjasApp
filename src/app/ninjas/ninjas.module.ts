@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+import { NinjasRoutingModule } from './ninjas-routing.module';
+
 import { AddComponent } from './pages/add/add.component';
 import { SearchComponent } from './pages/search/search.component';
 import { ViewComponent } from './pages/view/view.component';
@@ -17,7 +21,9 @@ import { ListComponent } from './pages/list/list.component';
     ListComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FlexLayoutModule,
+    NinjasRoutingModule
   ]
 })
 export class NinjasModule { }
