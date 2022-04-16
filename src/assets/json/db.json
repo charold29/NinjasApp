@@ -1,171 +1,171 @@
 {
-  "usuarios": [
+  "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
-  "heroes": [
+  "ninjas": [
     {
-      "id": "dc-batman",
-      "superhero": "Batman",
-      "publisher": "DC Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "id": "leaf-naruto",
+      "ninja": "Naruto Uzumaki",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "main_technique": "Rasengan",
+      "chakra_affinity": "Wind"
     },
     {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "id": "leaf-sasuke",
+      "ninja": "Sasuke Uchiha",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "main_technique": "Chidori",
+      "chakra_affinity": "Fire, Lightning"
     },
     {
-      "id": "dc-flash",
-      "superhero": "Flash",
-      "publisher": "DC Comics",
-      "alter_ego": "Jay Garrick",
-      "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+      "id": "leaf-sakura",
+      "ninja": "Sakura Haruno",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "main_technique": "Mystical Palm",
+      "chakra_affinity": "Earth"
     },
     {
-      "id": "dc-green",
-      "superhero": "Green Lantern",
-      "publisher": "DC Comics",
-      "alter_ego": "Alan Scott",
-      "first_appearance": "All-American Comics #16",
-      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+      "id": "sand-gaara",
+      "ninja": "Gaara",
+      "anime": "Naruto Shippuden",
+      "village": "Sunagakure",
+      "main_technique": "Sand Buckshot",
+      "chakra_affinity": "Lightning, Earth, Wind"
     },
     {
-      "id": "dc-arrow",
-      "superhero": "Green Arrow",
-      "publisher": "DC Comics",
-      "alter_ego": "Oliver Queen",
-      "first_appearance": "More Fun Comics #73",
-      "characters": "Oliver Queen"
+      "id": "sand-kankuro",
+      "ninja": "Kankuro",
+      "anime": "Naruto Shippuden",
+      "village": "Sunagakure",
+      "main_technique": "Puppet Mastery",
+      "chakra_affinity": "Wind"
     },
     {
-      "id": "dc-wonder",
-      "superhero": "Wonder Woman",
-      "publisher": "DC Comics",
-      "alter_ego": "Princess Diana",
-      "first_appearance": "All Star Comics #8",
-      "characters": "Princess Diana"
+      "id": "sand-temari",
+      "ninja": "Temari",
+      "anime": "Naruto Shippuden",
+      "village": "Sunagakure",
+      "main_technique": "Tessenjutsu",
+      "chakra_affinity": "Wind"
     },
     {
-      "id": "dc-martian",
-      "superhero": "Martian Manhunter",
-      "publisher": "DC Comics",
-      "alter_ego": "J\"onn J\"onzz",
-      "first_appearance": "Detective Comics #225",
-      "characters": "Martian Manhunter"
+      "id": "rain-yahiko",
+      "ninja": "Yahiko",
+      "anime": "Naruto Shippuden",
+      "village": "Amegakure",
+      "main_technique": "Transformation of Nature",
+      "chakra_affinity": "Fire, Wind"
     },
     {
-      "id": "dc-robin",
-      "superhero": "Robin/Nightwing",
-      "publisher": "DC Comics",
-      "alter_ego": "Dick Grayson",
-      "first_appearance": "Detective Comics #38",
-      "characters": "Dick Grayson"
+      "id": "rain-nagato",
+      "ninja": "Nagato",
+      "anime": "Naruto Shippuden",
+      "village": "Amegakure",
+      "main_technique": "Shinra Tensei",
+      "chakra_affinity": "Fire, Wind, Yang"
     },
     {
-      "id": "dc-blue",
-      "superhero": "Blue Beetle",
-      "publisher": "DC Comics",
-      "alter_ego": "Dan Garret",
-      "first_appearance": "Mystery Men Comics #1",
-      "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+      "id": "rain-konan",
+      "ninja": "Konan",
+      "anime": "Naruto Shippuden",
+      "village": "Amegakure",
+      "main_technique": "Shikigami no Mai",
+      "chakra_affinity": "Wind, Water, Yang"
     },
     {
-      "id": "dc-black",
-      "superhero": "Black Canary",
-      "publisher": "DC Comics",
-      "alter_ego": "Dinah Drake",
-      "first_appearance": "Flash Comics #86",
-      "characters": "Dinah Drake, Dinah Lance"
+      "id": "lightning-samui",
+      "ninja": "Samui",
+      "anime": "Naruto Shippuden",
+      "village": "Kumogakure",
+      "main_technique": "Mystical Palm",
+      "chakra_affinity": "Earth, Lightning"
     },
     {
-      "id": "marvel-spider",
-      "superhero": "Spider Man",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Peter Parker",
-      "first_appearance": "Amazing Fantasy #15",
-      "characters": "Peter Parker"
+      "id": "lightning-karui",
+      "ninja": "Karui",
+      "anime": "Naruto Shippuden",
+      "village": "Kumogakure",
+      "main_technique": "Kumoryū: Omotegiri",
+      "chakra_affinity": "Lightning"
     },
     {
-      "id": "marvel-captain",
-      "superhero": "Captain America",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Steve Rogers",
-      "first_appearance": "Captain America Comics #1",
-      "characters": "Steve Rogers"
+      "id": "lightning-omoi",
+      "ninja": "Omoi",
+      "anime": "Naruto Shippuden",
+      "village": "Kumogakure",
+      "main_technique": "Urakasumigiri",
+      "chakra_affinity": "Lightning"
     },
     {
-      "id": "marvel-iron",
-      "superhero": "Iron Man",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Tony Stark",
-      "first_appearance": "Tales of Suspense #39",
-      "characters": "Tony Stark"
+      "id": "leaf-kakashi",
+      "ninja": "Kakashi Hatake",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "main_technique": "Sairento Kiringu",
+      "chakra_affinity": "Fire, Yin, Lightning"
     },
     {
-      "id": "marvel-thor",
-      "superhero": "Thor",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Thor Odinson",
-      "first_appearance": "Journey into Myster #83",
-      "characters": "Thor Odinson"
+      "id": "leaf-obito",
+      "ninja": "Obito Uchiha",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "main_technique": "Kamui",
+      "chakra_affinity": "Fire, Yin-Yang, Wood"
     },
     {
-      "id": "marvel-hulk",
-      "superhero": "Hulk",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Bruce Banner",
-      "first_appearance": "The Incredible Hulk #1",
-      "characters": "Bruce Banner"
+      "id": "leaf-rin",
+      "ninja": "Rin Nohara",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "main_technique": "Shōsen Jutsu",
+      "chakra_affinity": "Fire, Water, Yang"
     },
     {
-      "id": "marvel-wolverine",
-      "superhero": "Wolverine",
-      "publisher": "Marvel Comics",
-      "alter_ego": "James Howlett",
-      "first_appearance": "The Incredible Hulk #180",
-      "characters": "James Howlett"
+      "id": "akatsuki-zetsu",
+      "ninja": "Zetsu",
+      "anime": "Naruto Shippuden",
+      "village": "So no Kuni",
+      "main_technique": "Kisei Bunshin",
+      "chakra_affinity": "Fire, Wind, Yin"
     },
     {
-      "id": "marvel-daredevil",
-      "superhero": "Daredevil",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Matthew Michael Murdock",
-      "first_appearance": "Daredevil #1",
-      "characters": "Matthew Michael Murdock"
+      "id": "akatsuki-kisame",
+      "ninja": "Daredevil",
+      "anime": "Naruto Shippuden",
+      "village": "Kirigakure",
+      "main_technique": "Suiton: Suikōdan no Jutsu",
+      "chakra_affinity": "Wind, Earth, Water"
     },
     {
-      "id": "marvel-hawkeye",
-      "superhero": "Hawkeye",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Clinton Francis Barton",
-      "first_appearance": "Tales of Suspense #57",
-      "characters": "Clinton Francis Barton"
+      "id": "akatsuki-itachi",
+      "ninja": "Hawkeye",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "main_technique": "Amaterasu",
+      "chakra_affinity": "Fire, Wind, Yin"
     },
     {
-      "id": "marvel-cyclops",
-      "superhero": "Cyclops",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Scott Summers",
-      "first_appearance": "X-Men #1",
-      "characters": "Scott Summers"
+      "id": "akatsuki-deidara",
+      "ninja": "Cyclops",
+      "anime": "Naruto Shippuden",
+      "village": "Iwagakure",
+      "main_technique": "Kibaku Nendo",
+      "chakra_affinity": "Earth, Burst"
     },
     {
-      "id": "marvel-silver",
-      "superhero": "Silver Surfer",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Norrin Radd",
-      "first_appearance": "The Fantastic Four #48",
-      "characters": "Norrin Radd"
+      "id": "akatsuki-sasori",
+      "ninja": "Silver Surfer",
+      "anime": "Naruto Shippuden",
+      "village": "Sunagakure",
+      "main_technique": "Satetsu Shigure",
+      "chakra_affinity": "Wind"
     }
   ]
 }
