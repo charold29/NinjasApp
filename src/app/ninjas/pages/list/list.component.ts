@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NinjasService } from '../../services/ninjas.service';
 
 @Component({
   selector: 'app-list',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  constructor( private ninjasService: NinjasService ) { }
 
   ngOnInit(): void {
+
+    this.ninjasService.getNinjas()
+      .subscribe(resp => console.log(resp ))
+
   }
 
 }
