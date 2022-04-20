@@ -16,9 +16,7 @@ export class ListComponent implements OnInit {
   ngOnInit(): void {
 
     this.ninjasService.getNinjas()
-      .subscribe(resp => {
-        this.ninjas = resp;
-      })
+      .subscribe( ninjas => { this.ninjas = ninjas });
 
   }
 
