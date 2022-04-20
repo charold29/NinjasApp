@@ -20,4 +20,6 @@ export class ListComponent implements OnInit {
 
   }
 
+  longText: string = 'GAA';
+
 }
