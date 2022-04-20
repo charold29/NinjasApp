@@ -9,7 +9,7 @@
   "ninjas": [
     {
       "id": "leaf-naruto",
-      "ninja": "Naruto Uzumaki",
+      "name": "Naruto Uzumaki",
       "anime": "Naruto Shippuden",
       "village": "Konohagakure",
       "main_technique": "Rasengan",
@@ -17,7 +17,7 @@
     },
     {
       "id": "leaf-sasuke",
-      "ninja": "Sasuke Uchiha",
+      "name": "Sasuke Uchiha",
       "anime": "Naruto Shippuden",
       "village": "Konohagakure",
       "main_technique": "Chidori",
@@ -25,7 +25,7 @@
     },
     {
       "id": "leaf-sakura",
-      "ninja": "Sakura Haruno",
+      "name": "Sakura Haruno",
       "anime": "Naruto Shippuden",
       "village": "Konohagakure",
       "main_technique": "Mystical Palm",
@@ -33,7 +33,7 @@
     },
     {
       "id": "sand-gaara",
-      "ninja": "Gaara",
+      "name": "Gaara",
       "anime": "Naruto Shippuden",
       "village": "Sunagakure",
       "main_technique": "Sand Buckshot",
@@ -41,7 +41,7 @@
     },
     {
       "id": "sand-kankuro",
-      "ninja": "Kankuro",
+      "name": "Kankuro",
       "anime": "Naruto Shippuden",
       "village": "Sunagakure",
       "main_technique": "Puppet Mastery",
@@ -49,7 +49,7 @@
     },
     {
       "id": "sand-temari",
-      "ninja": "Temari",
+      "name": "Temari",
       "anime": "Naruto Shippuden",
       "village": "Sunagakure",
       "main_technique": "Tessenjutsu",
@@ -57,7 +57,7 @@
     },
     {
       "id": "rain-yahiko",
-      "ninja": "Yahiko",
+      "name": "Yahiko",
       "anime": "Naruto Shippuden",
       "village": "Amegakure",
       "main_technique": "Transformation of Nature",
@@ -65,7 +65,7 @@
     },
     {
       "id": "rain-nagato",
-      "ninja": "Nagato",
+      "name": "Nagato",
       "anime": "Naruto Shippuden",
       "village": "Amegakure",
       "main_technique": "Shinra Tensei",
@@ -73,7 +73,7 @@
     },
     {
       "id": "rain-konan",
-      "ninja": "Konan",
+      "name": "Konan",
       "anime": "Naruto Shippuden",
       "village": "Amegakure",
       "main_technique": "Shikigami no Mai",
@@ -81,7 +81,7 @@
     },
     {
       "id": "lightning-samui",
-      "ninja": "Samui",
+      "name": "Samui",
       "anime": "Naruto Shippuden",
       "village": "Kumogakure",
       "main_technique": "Mystical Palm",
@@ -89,7 +89,7 @@
     },
     {
       "id": "lightning-karui",
-      "ninja": "Karui",
+      "name": "Karui",
       "anime": "Naruto Shippuden",
       "village": "Kumogakure",
       "main_technique": "Kumoryū: Omotegiri",
@@ -97,7 +97,7 @@
     },
     {
       "id": "lightning-omoi",
-      "ninja": "Omoi",
+      "name": "Omoi",
       "anime": "Naruto Shippuden",
       "village": "Kumogakure",
       "main_technique": "Urakasumigiri",
@@ -105,7 +105,7 @@
     },
     {
       "id": "leaf-kakashi",
-      "ninja": "Kakashi Hatake",
+      "name": "Kakashi Hatake",
       "anime": "Naruto Shippuden",
       "village": "Konohagakure",
       "main_technique": "Sairento Kiringu",
@@ -113,7 +113,7 @@
     },
     {
       "id": "leaf-obito",
-      "ninja": "Obito Uchiha",
+      "name": "Obito Uchiha",
       "anime": "Naruto Shippuden",
       "village": "Konohagakure",
       "main_technique": "Kamui",
@@ -121,7 +121,7 @@
     },
     {
       "id": "leaf-rin",
-      "ninja": "Rin Nohara",
+      "name": "Rin Nohara",
       "anime": "Naruto Shippuden",
       "village": "Konohagakure",
       "main_technique": "Shōsen Jutsu",
@@ -129,7 +129,7 @@
     },
     {
       "id": "akatsuki-zetsu",
-      "ninja": "Zetsu",
+      "name": "Zetsu",
       "anime": "Naruto Shippuden",
       "village": "So no Kuni",
       "main_technique": "Kisei Bunshin",
@@ -137,7 +137,7 @@
     },
     {
       "id": "akatsuki-kisame",
-      "ninja": "Daredevil",
+      "name": "Kisame Hoshigaki",
       "anime": "Naruto Shippuden",
       "village": "Kirigakure",
       "main_technique": "Suiton: Suikōdan no Jutsu",
@@ -145,7 +145,7 @@
     },
     {
       "id": "akatsuki-itachi",
-      "ninja": "Hawkeye",
+      "name": "Itachi Uchiha",
       "anime": "Naruto Shippuden",
       "village": "Konohagakure",
       "main_technique": "Amaterasu",
@@ -153,7 +153,7 @@
     },
     {
       "id": "akatsuki-deidara",
-      "ninja": "Cyclops",
+      "name": "Deidara",
       "anime": "Naruto Shippuden",
       "village": "Iwagakure",
       "main_technique": "Kibaku Nendo",
@@ -161,7 +161,7 @@
     },
     {
       "id": "akatsuki-sasori",
-      "ninja": "Silver Surfer",
+      "name": "Sasori of the Red Sand",
       "anime": "Naruto Shippuden",
       "village": "Sunagakure",
       "main_technique": "Satetsu Shigure",

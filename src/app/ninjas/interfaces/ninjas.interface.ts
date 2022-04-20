@@ -1,6 +1,6 @@
 export interface Ninja {
     id?:             string;
-    ninja:           string;
+    name:           string;
     anime:           Anime;
     village:         string;
     main_technique:  string;
