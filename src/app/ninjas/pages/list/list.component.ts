@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Ninja } from '../../interfaces/ninjas.interface';
+import { Anime, Ninja } from '../../interfaces/ninjas.interface';
 import { NinjasService } from '../../services/ninjas.service';
 
 @Component({
@@ -9,6 +9,7 @@ import { NinjasService } from '../../services/ninjas.service';
 })
 export class ListComponent implements OnInit {
 
+  animeName !:Anime;
   ninjas !: Ninja[];
 
   constructor( private ninjasService: NinjasService ) { }
@@ -16,10 +17,11 @@ export class ListComponent implements OnInit {
   ngOnInit(): void {
 
     this.ninjasService.getNinjas()
-      .subscribe( ninjas => { this.ninjas = ninjas });
+      .subscribe( ninjas => {
+        this.animeName = ninjas[0].anime
+        this.ninjas = ninjas
+      });
 
   }
-
-  longText: string = 'GAA';
 
 }

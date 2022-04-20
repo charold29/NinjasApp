@@ -1,3 +1,17 @@
 .ninja-card {
+  max-width: 800px;
+}
+
+.ninja-avatar {
+  background-image: url('https://i.pinimg.com/736x/77/56/01/7756013113edb646b18ae1e4672f49e1.jpg');
+  background-size: cover;
+}
+
+.ninja-image {
   max-width: 400px;
 }
+
+h1 {
+  text-align: center;
+}
+
