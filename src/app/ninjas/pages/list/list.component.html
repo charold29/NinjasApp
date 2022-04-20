@@ -1,7 +1,7 @@
 <h1>Most Famous Ninjas in {{animeName}}</h1>
 <mat-divider style="margin-bottom: 1rem"></mat-divider>
 
-<mat-grid-list cols="3">
+<div fxLayout="row">
 
   <mat-grid-tile *ngFor="let ninja of ninjas; let i=index">
 
@@ -38,4 +38,13 @@
     </mat-card>
 
   </mat-grid-tile>
+
+</div>
+
+
+
+<mat-grid-list cols="3">
+
+
+
 </mat-grid-list>
