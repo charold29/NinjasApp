@@ -26,9 +26,11 @@
 
   <mat-card-actions fxLayoutGap="5px">
     <button mat-stroked-button
+            [routerLink]="['/ninjas', ninja.id]"
             color="accent">
             Read more...</button>
     <button mat-flat-button
+            [routerLink]="['/ninjas/edit', ninja.id]"
             color="primary">
             Edit</button>
   </mat-card-actions>
