@@ -11,6 +11,7 @@ import { ListComponent } from './pages/list/list.component';
 import { NinjaCardComponent } from './components/ninja-card/ninja-card.component';
 import { SearchComponent } from './pages/search/search.component';
 import { ViewComponent } from './pages/view/view.component';
+import { ImagePipe } from './pipes/image.pipe';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,8 @@ import { ViewComponent } from './pages/view/view.component';
     NinjaCardComponent,
     SearchComponent,
     ViewComponent,
+
+    ImagePipe,
   ],
   imports: [
     CommonModule,

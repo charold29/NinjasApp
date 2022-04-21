@@ -1,19 +1,22 @@
 <mat-card>
 
   <mat-card-header>
-    <img  mat-card-avatar
-          src="assets/images/villages/{{ninja.village}}.png"
-          onerror="this.src='assets/images/no-village.png'">
+    <img mat-card-avatar
+         [src]="ninja | image:'avatar'"
+         onerror="this.src='assets/images/no-village.png'"
+    >
+    <!-- src="assets/images/villages/{{ninja.village}}.png" -->
 
     <mat-card-title> {{ ninja.name }} </mat-card-title>
     <mat-card-subtitle> <strong> Village: </strong> {{ ninja.village }} </mat-card-subtitle>
   </mat-card-header>
 
-  <img  mat-card-image
-        class="ninja-image"
-        src="assets/images/ninjas/{{ninja.id}}.png"
-        onerror="this.src='assets/images/no-image.png'"
+  <img mat-card-image
+       class="ninja-image"
+       [src]="ninja | image"
+       onerror="this.src='assets/images/no-image.png'"
   >
+  <!-- src="assets/images/ninjas/{{ninja.id}}.png" -->
 
   <mat-card-content>
     <p><strong>Chakra Affinity: </strong> {{ninja.chakra_affinity}} </p>
