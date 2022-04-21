@@ -1,26 +1,23 @@
 <h1>Most Famous Ninjas in {{animeName}}</h1>
 <mat-divider style="margin-bottom: 1rem"></mat-divider>
 
-<div fxLayout="row">
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="2rem">
 
-  <mat-grid-tile *ngFor="let ninja of ninjas; let i=index">
+  <div fxFlex="30" fxFlex.lg="20" fxFlex.sm="30" *ngFor="let ninja of ninjas">
 
-    <mat-card class="ninja-card">
+    <mat-card>
 
       <mat-card-header>
 
-        <img mat-card-avatar
-             src="assets/images/villages/{{ninja.village}}.png"
-             onerror="this.src='assets/images/no-village.png'">
+        <img mat-card-avatar src="assets/images/villages/{{ninja.village}}.png"
+          onerror="this.src='assets/images/no-village.png'">
         <mat-card-title> {{ ninja.name }} </mat-card-title>
         <mat-card-subtitle> <strong> Village: </strong> {{ ninja.village }} </mat-card-subtitle>
 
       </mat-card-header>
 
-      <img mat-card-image
-           class="ninja-image"
-           src="assets/images/ninjas/{{ninja.id}}.png"
-           onerror="this.src='assets/images/no-image.png'">
+      <img mat-card-image class="ninja-image" src="assets/images/ninjas/{{ninja.id}}.png"
+        onerror="this.src='assets/images/no-image.png'">
 
       <mat-card-content>
         <p><strong>Chakra Affinity: </strong> {{ninja.chakra_affinity}} </p>
@@ -28,23 +25,25 @@
       </mat-card-content>
 
       <mat-divider inset></mat-divider>
+
       <mat-card-actions>
         <button mat-stroked-button color="accent">Read more...</button>
         <button mat-raised-button color="primary">Edit</button>
       </mat-card-actions>
+
       <mat-card-footer>
         <mat-progress-bar mode="indeterminate"></mat-progress-bar>
       </mat-card-footer>
+
     </mat-card>
 
-  </mat-grid-tile>
-
+  </div>
 </div>
 
+<!-- <mat-grid-list cols="3">
 
+  <mat-grid-tile *ngFor="let ninja of ninjas; let i=index">
+    <mat-card class="ninja-card">
+  </mat-grid-tile>
 
-<mat-grid-list cols="3">
-
-
-
-</mat-grid-list>
+</mat-grid-list> -->
