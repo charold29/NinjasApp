@@ -1,25 +1,25 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material/material.module';
+import { NgModule } from '@angular/core';
 
 import { NinjasRoutingModule } from './ninjas-routing.module';
 
 import { AddComponent } from './pages/add/add.component';
-import { SearchComponent } from './pages/search/search.component';
-import { ViewComponent } from './pages/view/view.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ListComponent } from './pages/list/list.component';
-
-
+import { NinjaCardComponent } from './components/ninja-card/ninja-card.component';
+import { SearchComponent } from './pages/search/search.component';
+import { ViewComponent } from './pages/view/view.component';
 
 @NgModule({
   declarations: [
     AddComponent,
+    HomeComponent,
+    ListComponent,
+    NinjaCardComponent,
     SearchComponent,
     ViewComponent,
-    HomeComponent,
-    ListComponent
   ],
   imports: [
     CommonModule,
