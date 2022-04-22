@@ -1,14 +1,20 @@
 <mat-card>
 
   <mat-card-header>
+
     <img mat-card-avatar
          [src]="ninja | image:'avatar'"
          onerror="this.src='assets/images/no-village.png'"
     >
     <!-- src="assets/images/villages/{{ninja.village}}.png" -->
+    <mat-card-title>
+      {{ ninja.name }}
+    </mat-card-title>
 
-    <mat-card-title> {{ ninja.name }} </mat-card-title>
-    <mat-card-subtitle> <strong> Village: </strong> {{ ninja.village }} </mat-card-subtitle>
+    <mat-card-subtitle>
+      Village: <small>{{ ninja.village }}</small>
+    </mat-card-subtitle>
+
   </mat-card-header>
 
   <img mat-card-image
@@ -19,11 +25,16 @@
   <!-- src="assets/images/ninjas/{{ninja.id}}.png" -->
 
   <mat-card-content>
-    <p><strong>Ninja Chakra Affinity: </strong> {{ ninja.chakra_affinity[0] }} </p>
-  </mat-card-content>
-  <mat-divider inset></mat-divider>
 
-  <mat-card-actions fxLayoutGap="5px">
+    <span> Ninja Chakra Affinity: </span>
+    {{ ninja.chakra_affinity[0] }}
+
+  </mat-card-content>
+
+  <mat-divider></mat-divider>
+
+  <mat-card-actions fxLayoutGap="5px" fxLayoutAlign="space-between start">
+
     <button mat-stroked-button
             [routerLink]="['/ninjas', ninja.id]"
             color="accent">
@@ -35,7 +46,7 @@
   </mat-card-actions>
 
   <mat-card-footer>
-    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    <mat-progress-bar mode="query"></mat-progress-bar>
   </mat-card-footer>
 
 </mat-card>

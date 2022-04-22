@@ -15,7 +15,6 @@ export class ArrayChipsComponent implements OnInit {
   firstElement: string = ''
 
   ngOnInit(): void {
-
     this.firstElement = this.array[0]
     this.array.shift()
   }
