@@ -23,21 +23,23 @@
         <mat-card>
 
           <mat-card-content>
-            
-            <app-array-chips 
-              text="Chackra Natures" 
-              [array]="ninja.chakra_affinity">
+
+            <app-array-chips
+              text="Chackra Natures"
+              [array]="ninja.chakra_affinity"
+              firstElementColor="warn">
             </app-array-chips>
 
-            <app-array-chips 
-              text="Main Technique" 
-              [array]="ninja.techniques">
+            <app-array-chips
+              text="Techniques"
+              [array]="ninja.techniques"
+              firstElementColor="primary">
             </app-array-chips>
 
           </mat-card-content>
 
-          <mat-card-actions>
-            <button mat-stroked-button
+          <mat-card-actions align="end">
+            <button mat-button
                     color="warn"
                     (click)="return()">
             Regresar

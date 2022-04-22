@@ -2,9 +2,27 @@
 <mat-divider [inset]="true"></mat-divider>
 
 <div class="mt-10">
+
   <mat-chip-list>
-    <mat-chip *ngFor="let element of array" [selected]="isSelected">
-    {{ element }}
-    </mat-chip>
+
+    <div fxLayout="column">
+
+      <div>
+        <small [class]="firstElementColor">Main </small>
+        <mat-chip [color]="firstElementColor" selected>
+          {{firstElement}}
+        </mat-chip>
+      </div>
+
+      <div>
+        <small>Others </small>
+        <mat-chip *ngFor="let element of array">
+          {{ element }}
+        </mat-chip>
+      </div>
+
+    </div>
+
   </mat-chip-list>
+
 </div>

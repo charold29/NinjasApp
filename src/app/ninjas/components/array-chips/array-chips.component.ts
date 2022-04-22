@@ -10,18 +10,13 @@ export class ArrayChipsComponent implements OnInit {
 
   @Input() array!: string[];
   @Input() text!: string;
+  @Input() firstElementColor: string = 'none';
 
-  isSelected: boolean = true
+  firstElement: string = ''
 
   ngOnInit(): void {
 
-    console.log(this.array[0])
-
-    if (this.text != "Main Technique")
-      this.isSelected = false
-
+    this.firstElement = this.array[0]
+    this.array.shift()
   }
-
-
-
 }
