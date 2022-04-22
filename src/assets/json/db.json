@@ -59,7 +59,7 @@
       "id": "rain-yahiko",
       "name": "Yahiko",
       "anime": "Naruto Shippuden",
-      "village": "Amegakure",
+      "village": "Amegakure Renegade",
       "main_technique": "Transformation of Nature",
       "chakra_affinity": "Fire, Wind"
     },
@@ -67,7 +67,7 @@
       "id": "rain-nagato",
       "name": "Nagato",
       "anime": "Naruto Shippuden",
-      "village": "Amegakure",
+      "village": "Amegakure Renegade",
       "main_technique": "Shinra Tensei",
       "chakra_affinity": "Fire, Wind, Yang"
     },
@@ -75,7 +75,7 @@
       "id": "rain-konan",
       "name": "Konan",
       "anime": "Naruto Shippuden",
-      "village": "Amegakure",
+      "village": "Amegakure Renegade",
       "main_technique": "Shikigami no Mai",
       "chakra_affinity": "Wind, Water, Yang"
     },
@@ -115,7 +115,7 @@
       "id": "leaf-obito",
       "name": "Obito Uchiha",
       "anime": "Naruto Shippuden",
-      "village": "Konohagakure",
+      "village": "Konohagakure Renegade",
       "main_technique": "Kamui",
       "chakra_affinity": "Fire, Yin-Yang, Wood"
     },
@@ -131,7 +131,7 @@
       "id": "akatsuki-zetsu",
       "name": "Zetsu",
       "anime": "Naruto Shippuden",
-      "village": "Kusagakure",
+      "village": "Kusagakure Renegade",
       "main_technique": "Kisei Bunshin",
       "chakra_affinity": "Fire, Wind, Yin"
     },
@@ -139,7 +139,7 @@
       "id": "akatsuki-kisame",
       "name": "Kisame Hoshigaki",
       "anime": "Naruto Shippuden",
-      "village": "Kirigakure",
+      "village": "Kirigakure Renegade",
       "main_technique": "Suiton: Suikōdan no Jutsu",
       "chakra_affinity": "Wind, Earth, Water"
     },
@@ -155,7 +155,7 @@
       "id": "akatsuki-deidara",
       "name": "Deidara",
       "anime": "Naruto Shippuden",
-      "village": "Iwagakure",
+      "village": "Iwagakure Renegade",
       "main_technique": "Kibaku Nendo",
       "chakra_affinity": "Earth, Burst"
     },
@@ -163,7 +163,7 @@
       "id": "akatsuki-sasori",
       "name": "Sasori of the Red Sand",
       "anime": "Naruto Shippuden",
-      "village": "Sunagakure",
+      "village": "Sunagakure Renegade",
       "main_technique": "Satetsu Shigure",
       "chakra_affinity": "Wind"
     }
