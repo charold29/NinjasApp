@@ -1,1 +1,10 @@
-<p>view works!</p>
+<mat-grid-list cols="1" *ngIf="!ninja; else divNinja">
+  <mat-grid-tile>
+    <mat-spinner></mat-spinner>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<ng-template #divNinja>
+  Prueba Ninja
+</ng-template>
+
