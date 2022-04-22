@@ -7,15 +7,17 @@
 
     <div fxLayout="column">
 
-      <div>
-        <small [class]="firstElementColor">Main </small>
-        <mat-chip [color]="firstElementColor" selected>
-          {{firstElement}}
-        </mat-chip>
+      <div fxLayout="row" >
+        <div>
+          <span><small> Main&nbsp;&nbsp; </small></span>
+          <mat-chip [color]="firstElementColor" selected>
+            {{firstElement}}
+          </mat-chip>
+        </div>
       </div>
 
-      <div>
-        <small>Others </small>
+      <div *ngIf="array.length>0">
+        <span><small> Others </small></span>
         <mat-chip *ngFor="let element of array">
           {{ element }}
         </mat-chip>
