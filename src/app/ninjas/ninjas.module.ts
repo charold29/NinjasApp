@@ -13,6 +13,7 @@ import { SearchComponent } from './pages/search/search.component';
 import { ViewComponent } from './pages/view/view.component';
 import { ImagePipe } from './pipes/image.pipe';
 import { FirstWordPipe } from './pipes/first-word.pipe';
+import { ArrayChipsComponent } from './components/array-chips/array-chips.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FirstWordPipe } from './pipes/first-word.pipe';
 
     ImagePipe,
       FirstWordPipe,
+      ArrayChipsComponent,
   ],
   imports: [
     CommonModule,

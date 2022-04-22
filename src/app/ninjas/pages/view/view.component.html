@@ -23,18 +23,16 @@
         <mat-card>
 
           <mat-card-content>
-            <h2> Chackra Natures </h2>
-            <mat-divider [inset]="true"></mat-divider>
-            <div class="chips">
-              <mat-chip-list>
-                <mat-chip>{{ninja.chakra_affinity}}</mat-chip>
-              </mat-chip-list>
-            </div>
-            <!-- <p>  {{ninja.chakra_affinity}}  </p> -->
+            
+            <app-array-chips 
+              text="Chackra Natures" 
+              [array]="ninja.chakra_affinity">
+            </app-array-chips>
 
-            <h2> Main Technique </h2>
-            <mat-divider [inset]="true"></mat-divider>
-            <p>  {{ninja.main_technique}}  </p>
+            <app-array-chips 
+              text="Main Technique" 
+              [array]="ninja.techniques">
+            </app-array-chips>
 
           </mat-card-content>
 
