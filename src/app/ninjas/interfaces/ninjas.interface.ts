@@ -1,10 +1,10 @@
 export interface Ninja {
-    id?:             string;
-    name:           string;
+    id?:              string;
+    name:            string;
     anime:           Anime;
     village:         string;
     main_technique:  string;
-    chakra_affinity: string;
+    chakra_affinity: string[];
     alt_img?:        string; // url o path de la imagen
 }
 
