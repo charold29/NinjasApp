@@ -3,6 +3,8 @@
 
 <div class="mt-10">
   <mat-chip-list>
-    <mat-chip *ngFor="let element of array"> {{ element }} </mat-chip>
+    <mat-chip *ngFor="let element of array" [selected]="isSelected">
+    {{ element }}
+    </mat-chip>
   </mat-chip-list>
 </div>

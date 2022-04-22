@@ -1,271 +1,271 @@
 {
   "users": [{
-     "id": 1,
-     "user": "John Doe",
-     "email": "john.due@gmail.com"
+    "id": 1,
+    "user": "John Doe",
+    "email": "john.due@gmail.com"
   }],
 
   "ninjas": [{
-        "id": "leaf-naruto",
-        "name": "Naruto Uzumaki",
-        "anime": "Naruto Shippuden",
-        "village": "Konohagakure",
-        "techniques": [
-           "Rasengan"
-        ],
-        "chakra_affinity": [
-           "Wind"
-        ]
-     },
-     {
-        "id": "leaf-sasuke",
-        "name": "Sasuke Uchiha",
-        "anime": "Naruto Shippuden",
-        "village": "Konohagakure",
-        "techniques": [
-           "Chidori"
-        ],
-        "chakra_affinity": [
-           "Fire",
-           "Lightning"
-        ]
-     },
-     {
-        "id": "leaf-sakura",
-        "name": "Sakura Haruno",
-        "anime": "Naruto Shippuden",
-        "village": "Konohagakure",
-        "techniques": [
-           "Mystical Palm"
-        ],
-        "chakra_affinity": [
-           "Earth"
-        ]
-     },
-     {
-        "id": "sand-gaara",
-        "name": "Gaara",
-        "anime": "Naruto Shippuden",
-        "village": "Sunagakure",
-        "techniques": [
-           "Sand Buckshot"
-        ],
-        "chakra_affinity": [
-           "Lightning",
-           "Earth",
-           "Wind"
-        ]
-     },
-     {
-        "id": "sand-kankuro",
-        "name": "Kankuro",
-        "anime": "Naruto Shippuden",
-        "village": "Sunagakure",
-        "techniques": [
-           "Puppet Mastery"
-        ],
-        "chakra_affinity": [
-           "Wind"
-        ]
-     },
-     {
-        "id": "sand-temari",
-        "name": "Temari",
-        "anime": "Naruto Shippuden",
-        "village": "Sunagakure",
-        "techniques": [
-           "Tessenjutsu"
-        ],
-        "chakra_affinity": [
-           "Wind"
-        ]
-     },
-     {
-        "id": "rain-yahiko",
-        "name": "Yahiko",
-        "anime": "Naruto Shippuden",
-        "village": "Amegakure Renegade",
-        "techniques": [
-           "Transformation of Nature"
-        ],
-        "chakra_affinity": [
-           "Fire",
-           "Wind"
-        ]
-     },
-     {
-        "id": "rain-nagato",
-        "name": "Nagato",
-        "anime": "Naruto Shippuden",
-        "village": "Amegakure Renegade",
-        "techniques": [
-           "Shinra Tensei"
-        ],
-        "chakra_affinity": [
-           "Fire",
-           "Wind",
-           "Yang"
-        ]
-     },
-     {
-        "id": "rain-konan",
-        "name": "Konan",
-        "anime": "Naruto Shippuden",
-        "village": "Amegakure Renegade",
-        "techniques": [
-           "Shikigami no Mai"
-        ],
-        "chakra_affinity": [
-           "Wind",
-           "Water",
-           "Yang"
-        ]
-     },
-     {
-        "id": "lightning-samui",
-        "name": "Samui",
-        "anime": "Naruto Shippuden",
-        "village": "Kumogakure",
-        "techniques": [
-           "Mystical Palm"
-        ],
-        "chakra_affinity": [
-           "Earth",
-           "Lightning"
-        ]
-     },
-     {
-        "id": "lightning-karui",
-        "name": "Karui",
-        "anime": "Naruto Shippuden",
-        "village": "Kumogakure",
-        "techniques": [
-           "Kumoryū: Omotegiri"
-        ],
-        "chakra_affinity": [
-           "Lightning"
-        ]
-     },
-     {
-        "id": "lightning-omoi",
-        "name": "Omoi",
-        "anime": "Naruto Shippuden",
-        "village": "Kumogakure",
-        "techniques": [
-           "Urakasumigiri"
-        ],
-        "chakra_affinity": [
-           "Lightning"
-        ]
-     },
-     {
-        "id": "leaf-kakashi",
-        "name": "Kakashi Hatake",
-        "anime": "Naruto Shippuden",
-        "village": "Konohagakure",
-        "techniques": [
-           "Sairento Kiringu"
-        ],
-        "chakra_affinity": [
-           "Fire",
-           "Yin",
-           "Lightning"
-        ]
-     },
-     {
-        "id": "leaf-obito",
-        "name": "Obito Uchiha",
-        "anime": "Naruto Shippuden",
-        "village": "Konohagakure Renegade",
-        "techniques": [
-           "Kamui"
-        ],
-        "chakra_affinity": [
-           "Fire",
-           "Yin-Yang",
-           "Wood"
-        ]
-     },
-     {
-        "id": "leaf-rin",
-        "name": "Rin Nohara",
-        "anime": "Naruto Shippuden",
-        "village": "Konohagakure",
-        "techniques": [
-           "Shōsen Jutsu"
-        ],
-        "chakra_affinity": [
-           "Fire",
-           "Water",
-           "Yang"
-        ]
-     },
-     {
-        "id": "akatsuki-zetsu",
-        "name": "Zetsu",
-        "anime": "Naruto Shippuden",
-        "village": "Kusagakure Renegade",
-        "techniques": [
-           "Kisei Bunshin"
-        ],
-        "chakra_affinity": [
-           "Fire",
-           "Wind",
-           "Yin"
-        ]
-     },
-     {
-        "id": "akatsuki-kisame",
-        "name": "Kisame Hoshigaki",
-        "anime": "Naruto Shippuden",
-        "village": "Kirigakure Renegade",
-        "techniques": [
-           "Suiton: Suikōdan no Jutsu"
-        ],
-        "chakra_affinity": [
-           "Wind",
-           "Earth",
-           "Water"
-        ]
-     },
-     {
-        "id": "akatsuki-itachi",
-        "name": "Itachi Uchiha",
-        "anime": "Naruto Shippuden",
-        "village": "Konohagakure Renegade",
-        "techniques": [
-           "Amaterasu"
-        ],
-        "chakra_affinity": [
-           "Fire",
-           "Wind",
-           "Yin"
-        ]
-     },
-     {
-        "id": "akatsuki-deidara",
-        "name": "Deidara",
-        "anime": "Naruto Shippuden",
-        "village": "Iwagakure Renegade",
-        "techniques": [
-           "Kibaku Nendo"
-        ],
-        "chakra_affinity": [
-           "Earth",
-           "Burst"
-        ]
-     },
-     {
-        "id": "akatsuki-sasori",
-        "name": "Sasori of the Red Sand",
-        "anime": "Naruto Shippuden",
-        "village": "Sunagakure Renegade",
-        "techniques": [
-           "Satetsu Shigure"
-        ],
-        "chakra_affinity": [
-           "Wind"
-        ]
-     }
+      "id": "leaf-naruto",
+      "name": "Naruto Uzumaki",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "techniques": [
+        "Rasengan"
+      ],
+      "chakra_affinity": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "leaf-sasuke",
+      "name": "Sasuke Uchiha",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "techniques": [
+        "Chidori"
+      ],
+      "chakra_affinity": [
+        "Fire",
+        "Lightning"
+      ]
+    },
+    {
+      "id": "leaf-sakura",
+      "name": "Sakura Haruno",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "techniques": [
+        "Mystical Palm"
+      ],
+      "chakra_affinity": [
+        "Earth"
+      ]
+    },
+    {
+      "id": "sand-gaara",
+      "name": "Gaara",
+      "anime": "Naruto Shippuden",
+      "village": "Sunagakure",
+      "techniques": [
+        "Sand Buckshot"
+      ],
+      "chakra_affinity": [
+        "Lightning",
+        "Earth",
+        "Wind"
+      ]
+    },
+    {
+      "id": "sand-kankuro",
+      "name": "Kankuro",
+      "anime": "Naruto Shippuden",
+      "village": "Sunagakure",
+      "techniques": [
+        "Puppet Mastery"
+      ],
+      "chakra_affinity": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "sand-temari",
+      "name": "Temari",
+      "anime": "Naruto Shippuden",
+      "village": "Sunagakure",
+      "techniques": [
+        "Tessenjutsu"
+      ],
+      "chakra_affinity": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "rain-yahiko",
+      "name": "Yahiko",
+      "anime": "Naruto Shippuden",
+      "village": "Amegakure Renegade",
+      "techniques": [
+        "Transformation of Nature"
+      ],
+      "chakra_affinity": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "rain-nagato",
+      "name": "Nagato",
+      "anime": "Naruto Shippuden",
+      "village": "Amegakure Renegade",
+      "techniques": [
+        "Shinra Tensei"
+      ],
+      "chakra_affinity": [
+        "Fire",
+        "Wind",
+        "Yang"
+      ]
+    },
+    {
+      "id": "rain-konan",
+      "name": "Konan",
+      "anime": "Naruto Shippuden",
+      "village": "Amegakure Renegade",
+      "techniques": [
+        "Shikigami no Mai"
+      ],
+      "chakra_affinity": [
+        "Wind",
+        "Water",
+        "Yang"
+      ]
+    },
+    {
+      "id": "lightning-samui",
+      "name": "Samui",
+      "anime": "Naruto Shippuden",
+      "village": "Kumogakure",
+      "techniques": [
+        "Mystical Palm"
+      ],
+      "chakra_affinity": [
+        "Earth",
+        "Lightning"
+      ]
+    },
+    {
+      "id": "lightning-karui",
+      "name": "Karui",
+      "anime": "Naruto Shippuden",
+      "village": "Kumogakure",
+      "techniques": [
+        "Kumoryū: Omotegiri"
+      ],
+      "chakra_affinity": [
+        "Lightning"
+      ]
+    },
+    {
+      "id": "lightning-omoi",
+      "name": "Omoi",
+      "anime": "Naruto Shippuden",
+      "village": "Kumogakure",
+      "techniques": [
+        "Urakasumigiri"
+      ],
+      "chakra_affinity": [
+        "Lightning"
+      ]
+    },
+    {
+      "id": "leaf-kakashi",
+      "name": "Kakashi Hatake",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "techniques": [
+        "Sairento Kiringu"
+      ],
+      "chakra_affinity": [
+        "Fire",
+        "Yin",
+        "Lightning"
+      ]
+    },
+    {
+      "id": "leaf-obito",
+      "name": "Obito Uchiha",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure Renegade",
+      "techniques": [
+        "Kamui"
+      ],
+      "chakra_affinity": [
+        "Fire",
+        "Yin-Yang",
+        "Wood"
+      ]
+    },
+    {
+      "id": "leaf-rin",
+      "name": "Rin Nohara",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure",
+      "techniques": [
+        "Shōsen Jutsu"
+      ],
+      "chakra_affinity": [
+        "Fire",
+        "Water",
+        "Yang"
+      ]
+    },
+    {
+      "id": "akatsuki-zetsu",
+      "name": "Zetsu",
+      "anime": "Naruto Shippuden",
+      "village": "Kusagakure Renegade",
+      "techniques": [
+        "Kisei Bunshin"
+      ],
+      "chakra_affinity": [
+        "Fire",
+        "Wind",
+        "Yin"
+      ]
+    },
+    {
+      "id": "akatsuki-kisame",
+      "name": "Kisame Hoshigaki",
+      "anime": "Naruto Shippuden",
+      "village": "Kirigakure Renegade",
+      "techniques": [
+        "Suiton: Suikōdan no Jutsu"
+      ],
+      "chakra_affinity": [
+        "Wind",
+        "Earth",
+        "Water"
+      ]
+    },
+    {
+      "id": "akatsuki-itachi",
+      "name": "Itachi Uchiha",
+      "anime": "Naruto Shippuden",
+      "village": "Konohagakure Renegade",
+      "techniques": [
+        "Amaterasu"
+      ],
+      "chakra_affinity": [
+        "Fire",
+        "Wind",
+        "Yin"
+      ]
+    },
+    {
+      "id": "akatsuki-deidara",
+      "name": "Deidara",
+      "anime": "Naruto Shippuden",
+      "village": "Iwagakure Renegade",
+      "techniques": [
+        "Kibaku Nendo"
+      ],
+      "chakra_affinity": [
+        "Earth",
+        "Burst"
+      ]
+    },
+    {
+      "id": "akatsuki-sasori",
+      "name": "Sasori of the Red Sand",
+      "anime": "Naruto Shippuden",
+      "village": "Sunagakure Renegade",
+      "techniques": [
+        "Satetsu Shigure"
+      ],
+      "chakra_affinity": [
+        "Wind"
+      ]
+    }
   ]
 }
