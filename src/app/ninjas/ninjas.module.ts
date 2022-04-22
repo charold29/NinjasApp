@@ -12,6 +12,7 @@ import { NinjaCardComponent } from './components/ninja-card/ninja-card.component
 import { SearchComponent } from './pages/search/search.component';
 import { ViewComponent } from './pages/view/view.component';
 import { ImagePipe } from './pipes/image.pipe';
+import { FirstWordPipe } from './pipes/first-word.pipe';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ImagePipe } from './pipes/image.pipe';
     ViewComponent,
 
     ImagePipe,
+      FirstWordPipe,
   ],
   imports: [
     CommonModule,

@@ -5,6 +5,53 @@
 </mat-grid-list>
 
 <ng-template #divNinja>
-  {{ ninja | json }}
+
+  <h1> {{ninja.name}} <small>of {{ninja.village}} </small></h1>
+  <mat-divider></mat-divider>
+  <br>
+
+  <div fxlayout="row"
+       fxLayout.xs="column"
+       fxLayoutGap="30px">
+
+      <div fxFlex="60">
+        <img [src]="ninja | image" onerror="">
+      </div>
+
+      <div fxFlex="40">
+
+        <mat-card>
+
+          <mat-card-content>
+            <h2> Chackra Natures </h2>
+            <mat-divider [inset]="true"></mat-divider>
+            <div class="chips">
+              <mat-chip-list>
+                <mat-chip>{{ninja.chakra_affinity}}</mat-chip>
+              </mat-chip-list>
+            </div>
+            <!-- <p>  {{ninja.chakra_affinity}}  </p> -->
+
+            <h2> Main Technique </h2>
+            <mat-divider [inset]="true"></mat-divider>
+            <p>  {{ninja.main_technique}}  </p>
+
+          </mat-card-content>
+
+          <mat-card-actions>
+            <button mat-stroked-button
+                    color="warn"
+                    (click)="return()">
+            Regresar
+            </button>
+          </mat-card-actions>
+
+        </mat-card>
+
+      </div>
+
+
+  </div>
+
 </ng-template>
 

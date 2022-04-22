@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { switchMap } from 'rxjs';
 import { Ninja } from '../../interfaces/ninjas.interface';
 import { NinjasService } from '../../services/ninjas.service';
@@ -15,10 +15,18 @@ export class ViewComponent implements OnInit {
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private ninjasService: NinjasService
+    private ninjasService: NinjasService,
+    private router: Router
   ){}
 
   ngOnInit(): void {
+
+    this.activatedRoute.params
+    .pipe(
+      switchMap( ({ id }) => this.ninjasService.getNinjaById(id))
+      )
+      .subscribe( ninja => this.ninja = ninja
+    )
 
     // this.activatedRoute.params
     //   .subscribe( ({ id }) => {
@@ -29,16 +37,13 @@ export class ViewComponent implements OnInit {
     //   }
     // )
 
-    this.activatedRoute.params
-      .pipe(
-        switchMap( ({ id }) => this.ninjasService.getNinjaById(id))
-      )
-      .subscribe( ninja => this.ninja = ninja
-    )
-
     // const id = this.activatedRoute.snapshot.paramMap.get('id');
     // console.log(id)
 
+  }
+
+  return(){
+    this.router.navigate(['/ninjas/list'])
   }
 
 }
