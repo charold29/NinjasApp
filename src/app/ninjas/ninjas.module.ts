@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
 import { MaterialModule } from '../material/material.module';
 import { NgModule } from '@angular/core';
 
@@ -18,6 +19,7 @@ import { ArrayChipsComponent } from './components/array-chips/array-chips.compon
 @NgModule({
   declarations: [
     AddComponent,
+    ArrayChipsComponent,
     HomeComponent,
     ListComponent,
     NinjaCardComponent,
@@ -25,12 +27,12 @@ import { ArrayChipsComponent } from './components/array-chips/array-chips.compon
     ViewComponent,
 
     ImagePipe,
-      FirstWordPipe,
-      ArrayChipsComponent,
+    FirstWordPipe,
   ],
   imports: [
     CommonModule,
     FlexLayoutModule,
+    FormsModule,
     MaterialModule,
     NinjasRoutingModule,
   ]

@@ -15,11 +15,17 @@ export class NinjasService {
   constructor( private http:HttpClient ) { }
 
   getNinjas(): Observable<Ninja[]>{
+    // http://localhost:3000/ninjas/
     return this.http.get<Ninja[]>( `${this.baseUrl}/ninjas` );
   }
 
   getNinjaById( id:string ): Observable<Ninja>{
-    // return this.http.get<Ninja>( `http://localhost:3000/ninjas/${id}` )
-    return this.http.get<Ninja>( `${this.baseUrl}/ninjas/${id}` )
+    // http://localhost:3000/ninjas/leaf-naruto
+    return this.http.get<Ninja>( `${this.baseUrl}/ninjas/${id}` );
+  }
+
+  getSuggests( term: string ):Observable<Ninja[]>{
+    // http://localhost:3000/ninjas?q=a&_limit=5
+    return this.http.get<Ninja[]>( `${this.baseUrl}/ninjas/?q=${term}&_limit=5` );
   }
 }

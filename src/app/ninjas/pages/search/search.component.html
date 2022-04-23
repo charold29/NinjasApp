@@ -1,1 +1,39 @@
-<p>search works!</p>
+<div fxLayout="column" 
+     class="example-form"
+     fxLayoutGap="1rem">
+    <div>
+        <h1>Ninja searcher</h1>
+        <mat-divider></mat-divider>
+    </div>
+    <div>
+        <!-- <h3>Searcher</h3> -->
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Ninja</mat-label>
+            <input type="text"
+                   placeholder="Type a ninja name"
+                   aria-label="Number"
+                   matInput
+                   [(ngModel)]="term"
+                   [matAutocomplete]="auto"
+                   (input)="search()">
+            <mat-autocomplete autoActiveFirstOption 
+                              #auto="matAutocomplete"
+                              (optionSelected)="optSelected($event)">
+              <mat-option *ngFor="let ninja of ninjas" [value]="ninja">
+                {{ninja.name}}
+              </mat-option>
+
+              <mat-option value="" *ngIf="ninjas.length === 0 && term.trim().length > 0">
+                There are no results for {{term}}
+              </mat-option>
+
+            </mat-autocomplete>
+          </mat-form-field>
+    </div>
+
+    <div>
+        <pre>
+            {{ninjaSelected | json}}
+        </pre>
+    </div>
+</div>
