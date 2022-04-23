@@ -1,4 +1,4 @@
-<div fxLayout="column" 
+<div fxLayout="column"
      class="example-form"
      fxLayoutGap="1rem">
     <div>
@@ -16,7 +16,7 @@
                    [(ngModel)]="term"
                    [matAutocomplete]="auto"
                    (input)="search()">
-            <mat-autocomplete autoActiveFirstOption 
+            <mat-autocomplete autoActiveFirstOption
                               #auto="matAutocomplete"
                               (optionSelected)="optSelected($event)">
               <mat-option *ngFor="let ninja of ninjas" [value]="ninja">
@@ -31,9 +31,6 @@
           </mat-form-field>
     </div>
 
-    <div>
-        <pre>
-            {{ninjaSelected | json}}
-        </pre>
-    </div>
+    <app-ninja-card *ngIf="ninjaSelected" [ninja]="ninjaSelected"></app-ninja-card>
+
 </div>
