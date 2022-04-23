@@ -10,3 +10,7 @@ small {
 h1 {
   text-align: center;
 }
+
+mat-card {
+  border-radius: 1rem;
+}
