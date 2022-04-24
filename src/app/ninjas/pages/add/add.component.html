@@ -1,1 +1,76 @@
-<p>add works!</p>
+<h1>New Ninja <small> asd </small> </h1>
+
+<div fxLayaout="row" 
+     fxLayoutGap="40px" 
+     fxLayout.xs="column">
+
+    <div fxFlex="50" fxLayout="column">
+        
+        <div fxLayaout="row" 
+             fxLayout.xs="column"
+             fxLayoutGap="20px">
+            <mat-form-field fxFlex="100" fxLayout.xs="column">
+                <mat-label>Name</mat-label>
+                <input matInput
+                       type="text"
+                       required>
+            </mat-form-field>
+    
+            <mat-form-field fxFlex="100">
+                <mat-label>Village</mat-label>
+                <input matInput
+                       type="text"
+                       required>
+            </mat-form-field>
+        </div>
+        
+        <div fxLayaout="row" 
+             fxLayout.xs="column"
+             fxLayoutGap="20px">
+            <mat-form-field fxFlex="100">
+                <mat-label>Chakra Nature</mat-label>
+
+                <mat-select required>
+
+                    <mat-option *ngFor="let nature of chakraTypes"
+                                [value]="nature.id">
+                    {{nature.desc}}
+                    </mat-option>
+
+                </mat-select>
+            </mat-form-field>
+    
+            <mat-form-field fxFlex="100">
+                <mat-label>Technique</mat-label>
+                <input matInput
+                       type="text"
+                       required>
+            </mat-form-field>
+
+        </div>
+
+        <div fxLayaout="row" fxLayoutGap="20px">
+            <mat-form-field fxFlex="100">
+                <mat-label>Image URL</mat-label>
+                <input matInput
+                       type="url"
+                       required>
+            </mat-form-field>
+
+        </div>
+
+        <br>
+        <button mat-stroked-button 
+                color="warn">
+            <mat-icon>edit</mat-icon>
+            Save
+        </button>
+
+    </div>
+
+    <div fxFlex="50">
+        <img [src]="ninja | image"
+             onerror="this.src='assets/images/no-image.png'">
+    </div>
+
+</div>
